@@ -6,7 +6,8 @@ public class Song {
     private String artist;
     private int year;
     private String genre;
-    private String filePath;
+    private String filePath; 
+    private boolean isFavorite; 
 
     public String title() {
         return title;
@@ -22,9 +23,17 @@ public class Song {
 
     public String genre() {
         return genre;
+    } 
+
+    public boolean isFavorite() { 
+        return isFavorite;
+    } 
+
+    public void toggleFavorite() { 
+        isFavorite = !isFavorite;
     }
 
     public String filePath() {
         return filePath;
-    }
+    } 
 }

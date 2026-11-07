@@ -3,7 +3,8 @@
     "title": "Fater Lee",
     "artist": "Black Ant",
     "year": 2010,
-    "genre": "Hip-Hop",
+    "genre": "Hip-Hop", 
+    "isFavorite": false,
     "filePath": "Black Ant - Fater Lee.wav"
   },
   {
@@ -11,6 +12,7 @@
     "artist": "Manuele Atzeni",
     "year": 2009,
     "genre": "Hip-Hop",
+    "isFavorite": false,
     "filePath": "Manuele Atzeni - Little Star.wav"
   },
   {
@@ -18,6 +20,7 @@
     "artist": "Broke For Free",
     "year": 2012,
     "genre": "Electronic",
+    "isFavorite": false,
     "filePath": "Broke For Free - As Colorful As Ever.wav"
   },
   {
@@ -25,6 +28,7 @@
     "artist": "Shlohmo",
     "year": 2009,
     "genre": "Hip-Hop",
+    "isFavorite": false,
     "filePath": "Shlohmo - Hot Boxing The Cockpit.wav"
   },
   {
@@ -32,6 +36,7 @@
     "artist": "Comfort Fit",
     "year": 2004,
     "genre": "Hip-Hop",
+    "isFavorite": false,
     "filePath": "Comfort Fit - Sorry.wav"
   },
   {
@@ -39,6 +44,7 @@
     "artist": "K.I.R.K.",
     "year": 2016,
     "genre": "Hip-Hop",
+    "isFavorite": false,
     "filePath": "K.I.R.K. - Don't Go.wav"
   },
   {
@@ -46,6 +52,7 @@
     "artist": "Makaih Beats",
     "year": 2020,
     "genre": "Pop",
+    "isFavorite": false,
     "filePath": "Makaih Beats - Heaven (makaih.com).wav"
   },
   {
@@ -53,6 +60,7 @@
     "artist": "Shaolin Dub",
     "year": 2020,
     "genre": "Electronic",
+    "isFavorite": false,
     "filePath": "Shaolin Dub - Held Down.wav"
   },
   {
@@ -60,6 +68,7 @@
     "artist": "Makaih Beats",
     "year": 2020,
     "genre": "Pop",
+    "isFavorite": false,
     "filePath": "Makaih Beats - New Front (makaih.com).wav"
   },
   {
@@ -67,6 +76,7 @@
     "artist": "6th Sense",
     "year": 2009,
     "genre": "Hip-Hop",
+    "isFavorite": false,
     "filePath": "6th Sense - 05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.wav"
   }
 ]
