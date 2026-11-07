@@ -74,10 +74,11 @@ public class SpotifyLikeAppExampleCode {
     System.out.println("[H]ome");
     System.out.println("[S]earch by title");
     System.out.println("[L]ibrary");
+    System.out.println("[F]avorites");
     System.out.println("[Q]uit");
 
     System.out.println("");
-    System.out.print("Enter q to Quit:");
+    System.out.print("Enter an option: ");
   }
 
   /*
@@ -99,6 +100,10 @@ public class SpotifyLikeAppExampleCode {
       case "l":
         System.out.println("-->Library<--");
         showLibrary(library);
+        break; 
+      case "f": 
+        System.out.println("-->Favorites<--");
+        showFavorites(library); 
         break;
       case "q":
         System.out.println("-->Quit<--");
@@ -122,7 +127,17 @@ public class SpotifyLikeAppExampleCode {
     int choice = input.nextInt();
 
     play(library, choice - 1);
-} 
+}  
+
+public static void showFavorites(Song[] library) { 
+  for (int i = 0; i < library.length; i++) { 
+    if (library[i].isFavorite()) { 
+      System.out.println((i + 1) + ". " + 
+        library[i].title() + " - " + 
+        library[i].artist());
+    }
+  }
+}
 
 public static void searchByTitle(Song[] library) {
     Scanner input = new Scanner(System.in);
@@ -162,7 +177,17 @@ public static void searchByTitle(Song[] library) {
     System.out.println("Artist: " + library[songIndex].artist());
     System.out.println("Year: " + library[songIndex].year());
     System.out.println("Genre: " + library[songIndex].genre());
-    System.out.println("File: " + library[songIndex].filePath());
+    System.out.println("Favorite: " + library[songIndex].isFavorite());
+    System.out.println("File: " + library[songIndex].filePath()); 
+
+    Scanner input = new Scanner(System.in); 
+    System.out.println("Favorite this song? (y/n): ");
+    String favoriteChoice = input.nextLine().toLowerCase(); 
+
+    if(favoriteChoice.equals("y")) { 
+      library[songIndex].toggleFavorite();
+      System.out.println("Favorite status " + library[songIndex].isFavorite());
+    }
 
     try {
       // create clip
