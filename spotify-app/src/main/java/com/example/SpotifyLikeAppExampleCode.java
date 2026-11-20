@@ -15,32 +15,7 @@ public class SpotifyLikeAppExampleCode {
   // scanner for user input
   private static Scanner input = new Scanner(System.in);
 
-  /*
-    *** IMPORTANT NOTE FOR ALL STUDENTS ***
-
-    This next line of code is a "path" that students will need to change in order to play music on their
-    computer. The current path is for my laptop, not yours.
-
-    If students who do not understand whre files are located on their computer or how paths work on their computer,
-    should immediately complete the extra credit on "Folders and Directories" in the canvas modules.
-
-    Knowing how paths work is fundamental knowledge for using a computer as a technical person.
-
-    The play function in this example code plays one song. Once student change the directoryPath variable properly,
-    one of the songs should play. Students should implement their own code for
-    all the functionality in the assignment.
-
-    Students can use, and find their own music. You do not have to use or listen to my example music! Have fun!
-
-    Students who do not know what a path is on their computers, and how to use a path, are often unable complete
-    this assignment succesfullly. If this is your situation, please complete the extra credit on Folders Path,
-    and Directories. Also, please do google and watch youtube videos if that is helpful too.
-
-    Thank you! -Gabriel
-  */
-
-  private static String directoryPath =
-      "/Users/jamil/Documents/Github/spotify-like-app-part2/spotify-app";
+  private static String directoryPath = ".";
 
   // "main" makes this class a java app that can be executed
   public static void main(final String[] args) {
