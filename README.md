@@ -51,3 +51,10 @@ I built this project as part of my Intro to Java coursework to practice working 
 ## Running the Application
 
 Setup and execution instructions will be added after the project files are reviewed.
+
+## Acknowledgments
+
+Developed as part of my Intro to Java coursework
+using instructor-provided starter code. I extended
+the application with song searching, favorites,
+and additional audio playback controls.
